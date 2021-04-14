@@ -1,0 +1,29 @@
+extends layout.pug
+      
+
+block content
+      h2.sub-title Welcome
+      h4.occur There are !{rows.length} schedules registered in the sytem
+      div.align-right
+            button(class="my-button" onclick="move()") + New Schedule
+            script.
+                  function move() {
+                        window.location.href = '/new';
+                  }
+      table.my-table
+            thead
+                  tr
+                        th Username
+                        th Day of Week
+                        th Starting time 
+                        th Ending time
+            tbody
+                  each row in rows
+                        tr
+                              td= row.username
+                              td= row.dayOfWeek
+                              td= row.start_at
+                              td= row.end_at
+
+
+      

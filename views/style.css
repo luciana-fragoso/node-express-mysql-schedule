@@ -1,0 +1,132 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+header {
+    background-color: #659DBD;
+    padding: 1% 2% 1% 2%;
+    align-items: center;
+}
+
+.header {
+    text-align: center;
+    color: #FFFFFF;
+}
+h2.sub-title {
+    margin: 2% 0px 2% 0px;
+    color: #4984CC;
+    text-align: center;
+}
+.occur {
+   margin: 2% 2% 0px 2%;
+   text-align: center;
+   font-weight: normal;
+}
+div.number{
+    background-color: #91B5E0;
+    padding: 1%;
+}
+h4.number {
+    text-align: left;
+    margin: 0px;
+    color: #FFFFFF;
+}
+h5 {
+    margin: 0px;
+    font-weight: bold;
+    color: #343A40;
+    font-size: 14px;
+}
+
+span {
+    font-weight: normal;
+    color: #343A40;
+    font-size: 14px;
+}
+div.u {
+    background-color:#D5E5ED;
+    margin:2% 10% 2% 10%;
+    border: 1px solid #659DBD;
+    word-wrap: break-word;
+    display: block;
+}
+div.u:hover{
+    background-color: lightsteelblue;
+}
+div.add {
+    width: 80%;
+    padding-top: 1%;
+    background-color:#D5E5ED;
+    margin: auto;
+    border: 1px solid #659DBD;
+    word-wrap: break-word
+}
+div.info{
+    padding: 1%;
+}
+
+.form { 
+    margin: 2% 5% 2% 5%; 
+    display: block;
+ 
+}
+label {
+    font-size: 14px;
+}
+input,select{
+    width: 98%;
+    margin-right: 2%;
+    height: 30px;
+}
+.form-button {
+    width: 150px;
+    height: 40px;
+    border-radius: 10px;
+    outline: none;
+    border: 1px solid #000000;
+    background-color: lightgray;
+    margin: 0px calc(calc(100% - 150px) / 2) 2% calc(calc(100% - 150px) / 2); 
+}
+ .my-table {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 80%;
+    overflow: auto;
+    height: 80px;
+    margin: auto;
+    margin-top: 5px;
+    table-layout: fixed;
+  }
+
+  td,th  {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+  }
+
+  tr:nth-child(even){background-color: #f2f2f2;}
+  
+  tr:hover {background-color: #ddd;}
+  
+ th {
+    text-align: center;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    background-color:  #659DBD;
+    color: white;
+  }
+
+.my-button{
+    margin: 20px 0px 0px 10%;
+    height: 30px;  
+}
+.align-right{
+    text-align: right;
+    margin: 0px 10% 5px 0px;
+}
+.my-button-2{
+    height: 30px; 
+}
+
